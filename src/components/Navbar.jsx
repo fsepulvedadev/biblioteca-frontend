@@ -31,12 +31,12 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a
-          href="#"
+        <Link
+          to={"/historia"}
           className="flex items-center transition-colors hover:text-blue-500"
         >
           Historia
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"

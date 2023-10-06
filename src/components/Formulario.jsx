@@ -1,7 +1,6 @@
 import {
   Card,
   Input,
-  Checkbox,
   Button,
   Typography,
   Textarea,
@@ -9,7 +8,11 @@ import {
 
 export default function Formulario() {
   return (
-    <Card color="transparent" shadow={false}>
+    <Card
+      color="transparent"
+      shadow={false}
+      className="flex items-center justify-center"
+    >
       <Typography
         variant="h4"
         color="blue-gray"

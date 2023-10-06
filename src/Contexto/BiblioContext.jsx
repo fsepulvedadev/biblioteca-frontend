@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Context } from "./context";
 
 const BiblioContext = ({ children }) => {
-  const [archivos, setArchivos] = useState([]);
+  const [archivos, setArchivos] = useState(null);
   const [archivoSeleccionado, setArchivoSeleccionado] = useState([]);
 
   const handleBusqueda = async ({ busqueda, campo }) => {
