@@ -1,0 +1,69 @@
+.lgbt {
+  background: linear-gradient(
+    red 16.66%,
+    orange 0 33.33%,
+    yellow 0 50%,
+    green 0 66.66%,
+    blue 0 83.33%,
+    indigo 0
+  ) !important;
+  border: none;
+}
+
+.trans {
+  background: linear-gradient(
+    #55cdfc 0%,
+    #55cdfc 20%,
+    #f7a8b8 20%,
+    #f7a8b8 40%,
+    #ffffff 40%,
+    #ffffff 60%,
+    #55cdfc 60%,
+    #55cdfc 80%,
+    #f7a8b8 80%,
+    #f7a8b8 100%
+  ) !important;
+  color: black !important;
+
+  /* Ajusta los colores y las posiciones según tus preferencias */
+}
+
+.lgbt-border {
+  border-image: linear-gradient(
+      90deg,
+      #ff0018 0%,
+      #ff0018 14%,
+      #ffa52c 14%,
+      #ffa52c 28%,
+      #ffff41 28%,
+      #ffff41 42%,
+      #008018 42%,
+      #008018 56%,
+      #0000f9 56%,
+      #0000f9 70%,
+      #86007d 70%,
+      #86007d 84%,
+      #ff3f9e 84%,
+      #ff3f9e 100%
+    )
+    1;
+  border-image-slice: 1;
+}
+
+.trans-border {
+  border-image: linear-gradient(
+      90deg,
+      #55cdfc 0%,
+      #55cdfc 20%,
+      #f7a8b8 20%,
+      #f7a8b8 40%,
+      #ffffff 40%,
+      #ffffff 60%,
+      #55cdfc 60%,
+      #55cdfc 80%,
+      #f7a8b8 80%,
+      #f7a8b8 100%
+    )
+    1;
+  border-image-slice: 1;
+}

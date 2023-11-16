@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Arco iris - colores de la bandera trans -->
+  <circle cx="100" cy="100" r="90" fill="#55CDFC" />
+  <circle cx="100" cy="100" r="80" fill="#F7A8B8" />
+  <circle cx="100" cy="100" r="70" fill="#FFFFFF" />
+
+  <!-- Borde del arco iris -->
+  <circle cx="100" cy="100" r="90" stroke="#000" stroke-width="0" />
+</svg>

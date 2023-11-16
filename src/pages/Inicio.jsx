@@ -1,13 +1,14 @@
 import { Typography } from "@material-tailwind/react";
 import Button from "@material-tailwind/react/components/Button";
 import divisor from "../assets/divisor.svg";
+import divisorIzq from "../assets/divisor_izq.svg";
 import Acordion from "../components/Acordion";
 import { Link } from "react-router-dom";
 
 const Inicio = () => {
   return (
     <div className="pt-4 ">
-      <div className="flex flex-col items-center p-4 my-8 ">
+      <div className="flex flex-col items-center p-4 my-20 ">
         <div className="">
           <Typography
             color="blue-gray"
@@ -30,7 +31,7 @@ const Inicio = () => {
         </div>
         <div className="flex gap-4 mt-4">
           <Link to={"/buscar"}>
-            <Button variant="filled" size="lg" className="bg-[#1a3a67]">
+            <Button variant="filled" size="lg" className="bg-[#1a3a67] trans">
               Buscar archivos
             </Button>
           </Link>
@@ -39,7 +40,7 @@ const Inicio = () => {
             <Button
               size="lg"
               variant="outlined"
-              className="border-[#1a3a67] text-[#1a3a67]"
+              className="border-[#1a3a67]  lgbt"
             >
               Mas info
             </Button>
@@ -47,7 +48,7 @@ const Inicio = () => {
         </div>
       </div>
 
-      <img src={divisor} alt="" className="w-full " />
+      <img src={divisor} alt="" className="w-full -mb-4" />
 
       <div>
         <Typography
@@ -60,6 +61,9 @@ const Inicio = () => {
         <div className="w-6/12 mx-auto my-8">
           <Acordion />
         </div>
+        <img src={divisor} alt="" className="w-full rotate-180 -mt-4" />
+
+        {/* <img src={divisorIzq} alt="" className="w-full rotate-180" /> */}
       </div>
     </div>
   );

@@ -7,14 +7,14 @@ const BiblioContext = ({ children }) => {
 
   const handleBusqueda = async ({ busqueda, campo }) => {
     const res = await fetch(
-      `http://localhost:3000/buscar?busqueda=${busqueda}&campo=${campo}`
+      `https://bibliotecaarcoiris-api.neuquen.gov.ar/buscar?busqueda=${busqueda}&campo=${campo}`
     );
     const data = await res.json();
     setArchivos(data);
   };
 
   const handleDownload = (file) => {
-    fetch(`http://localhost:3000/descargar/${file}`)
+    fetch(`https://bibliotecaarcoiris-api.neuquen.gov.ar/descargar/${file}`)
       .then((res) => res.blob())
       .then((blob) => {
         const a = document.createElement("a");

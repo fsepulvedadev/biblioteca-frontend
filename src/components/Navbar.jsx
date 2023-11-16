@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 function NavList() {
   return (
-    <ul className="flex flex-col gap-2 my-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="flex flex-col gap-2 my-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
       <Typography
         as="li"
         variant="small"
@@ -83,7 +83,7 @@ export default function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className="max-w-screen-xl px-6 py-3 mx-auto mt-4">
+    <Navbar className="max-w-screen-xl px-6 py-3 mx-auto mt-4 lgbt-border border-b-8">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Link to={"/"}>
           <img src={logo} alt="logo biblioteca" className="w-28" />
