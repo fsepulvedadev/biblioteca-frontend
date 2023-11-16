@@ -4,6 +4,7 @@ import { Context } from "../Contexto/context";
 import { useContext } from "react";
 import { DocumentArrowDownIcon, EyeIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
+import arcoiris from "../assets/forma-arcoiris.svg";
 
 const TABLE_HEAD = [
   "Titulo",
@@ -24,11 +25,11 @@ const Buscar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="h-[50vh]">
+    <div className="h-[60vh] lgbt-border border-b-8">
       <Typography className="my-6 text-2xl font-bold text-center text-[#1a3a67]">
         Buscar Archivos
       </Typography>
-      <div className="w-6/12 mx-auto">
+      <div className=" md:w-6/12 mx-auto">
         <BarraDeBusqueda />
       </div>
       {archivos && (

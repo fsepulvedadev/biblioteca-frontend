@@ -4,7 +4,8 @@ import Contacto from "./pages/Contacto";
 import DetalleArchivo from "./pages/DetalleArchivo";
 import Historia from "./pages/Historia";
 import Inicio from "./pages/Inicio";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "../src/assets/banderas.css";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (

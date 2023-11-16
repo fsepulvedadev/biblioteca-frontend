@@ -3,6 +3,7 @@ import { Button, Input, Select, Option } from "@material-tailwind/react";
 import { useState, useContext } from "react";
 import Datepicker from "react-tailwindcss-datepicker";
 import { Context } from "../Contexto/context";
+import arcoiris from "../assets/forma-arcoiris.svg";
 
 const BarraDeBusqueda = () => {
   const [busqueda, setBusqueda] = useState("");
@@ -24,8 +25,8 @@ const BarraDeBusqueda = () => {
   };
 
   return (
-    <form onSubmit={buscar} action="">
-      <div className="grid grid-cols-2 gap-2">
+    <form className="" onSubmit={buscar} action="">
+      <div className="flex flex-col w-11/12 mx-auto md:grid grid-cols-2 gap-2">
         <div className={`${campo === "fecha" ? "hidden" : "block"}`}>
           <Input
             value={busqueda}
@@ -65,11 +66,11 @@ const BarraDeBusqueda = () => {
         </Select>
       </div>
       <Button
-        className="flex items-center justify-center w-6/12 mx-auto mt-4 bg-[#1a3a67]"
+        className="flex items-center justify-center w-6/12 mx-auto mt-4 lgbt text-black text-sm"
         type="submit"
       >
         Buscar
-        <MagnifyingGlassIcon className="w-3 ml-1 " />
+        <MagnifyingGlassIcon className="w-4 ml-1 " />
       </Button>
     </form>
   );

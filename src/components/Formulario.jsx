@@ -5,6 +5,7 @@ import {
   Typography,
   Textarea,
 } from "@material-tailwind/react";
+import "../assets/banderas.css";
 
 export default function Formulario() {
   return (
@@ -23,7 +24,7 @@ export default function Formulario() {
       <Typography color="gray" className="mt-1 font-normal text-center">
         Envianos tu consulta sobre la biblioteca.
       </Typography>
-      <form className="max-w-screen-lg mt-8 mb-2 w-80 sm:w-96">
+      <form className=" mt-8 mb-2 w-11/12 border-2 trans-border p-20">
         <div className="flex flex-col gap-6 mb-4">
           <Input size="lg" label="Nombre" />
           <Input size="lg" label="Apellido" />
@@ -31,7 +32,7 @@ export default function Formulario() {
           <Textarea color="lightBlue" size="regular" label="Mensaje" />
         </div>
 
-        <Button className="mt-6 bg-biblioteca" fullWidth>
+        <Button className="mt-6 bg-biblioteca trans text-sm" fullWidth>
           Enviar
         </Button>
       </form>

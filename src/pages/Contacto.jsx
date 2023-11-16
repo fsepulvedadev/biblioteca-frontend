@@ -1,5 +1,7 @@
 import Formulario from "../components/Formulario";
+import divisorIzq from "../assets/divisor_izq.svg";
 import divisor from "../assets/divisor.svg";
+
 import { Typography } from "@material-tailwind/react";
 import {
   EnvelopeIcon,
@@ -11,7 +13,9 @@ import { SiFacebook } from "react-icons/si";
 
 const Contacto = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
+      <img src={divisorIzq} alt="" className="w-full mt-10 -mb-10" />
+
       <div className="my-10">
         <Formulario />
 
@@ -73,7 +77,7 @@ const Contacto = () => {
           </li>
         </ul>
       </div>
-      <img src={divisor} alt="" className="w-full " />
+      <img src={divisor} alt="" className="w-full rotate-180 -mt-10" />
     </div>
   );
 };
