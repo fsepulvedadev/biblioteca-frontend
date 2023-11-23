@@ -14,7 +14,7 @@ export default function Acordion() {
     <>
       <Accordion open={open === 1}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          ¿Que es la Biblioteca Arcoiris?
+          ¿Que es la Biblioteca Arcoíris?
         </AccordionHeader>
         <AccordionBody>
           La Biblioteca Arcoíris es el primer repositorio digital que recopila
