@@ -14,8 +14,8 @@ const Inicio = () => {
             color="blue-gray"
             className="text-4xl font-extrabold text-center"
           >
-            Bienvenido a la{" "}
-            <span className="text-[#1a3a67]">Biblioteca Arcoiris</span>
+            Te damos la bienvenida a la{" "}
+            <span className="text-[#1a3a67]">Biblioteca Arcoíris</span>
           </Typography>
         </div>
 
@@ -24,9 +24,9 @@ const Inicio = () => {
             color="blue-gray"
             className="font-thin text-center md:text-lg text-blue-gray-400"
           >
-            El repositorio digital de archivos historicos sobre la lucha LGBTIQ+
+            El repositorio digital de archivos históricos sobre la lucha LGBTIQ+
             <br /> desarrollado por la Subsecretaria de Diversidad de la
-            Provincia de Neuquen
+            Provincia de Neuquén
           </Typography>
         </div>
         <div className="flex gap-4 mt-4">
@@ -61,7 +61,7 @@ const Inicio = () => {
         <div className="w-6/12 mx-auto my-8">
           <Acordion />
         </div>
-        <img src={divisor} alt="" className="w-full rotate-180 -mt-4" />
+        <img src={divisor} alt="" className="w-full -mt-4 rotate-180" />
 
         {/* <img src={divisorIzq} alt="" className="w-full rotate-180" /> */}
       </div>
